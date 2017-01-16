@@ -1,0 +1,18 @@
+To Delete the jars one by one:
+
+curl -X POST -H "X-Atlassian-Token: no-check" -H "Cache-Control: no-cache" -H "Postman-Token: 65787553-6984-ad18-b81b-78655b30220d" https://www.csa.sungard.com/wiki/pages/removeattachment.action?pageId=10020815998&os_username=<username>&os_password=<password>&fileName=amif-core.zip
+
+Make sure the header has only one key value pair – ( X-Atlassian-Token : no-check)
+
+You may need to run this multiple times with the different file names. So this can be added to a script and run.
+
+To Upload the Jars:
+
+curl -X POST -H "X-Atlassian-Token: no-check" -H "Cache-Control: no-cache" -H "Postman-Token: ff153eb1-4e76-5b24-8b39-4aad94bdbf00" -H "Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW" -F "file_0=@" -F "file_1=@" -F "file_2=@" -F "file_3=@" -F "file_4=@" https://www.csa.sungard.com/wiki/pages/doattachfile.action?pageId=10020815998&os_username=<username>&os_password=<password>
+
+If used from postman body type will be form-data and select file from the dropdown. 
+
+Make sure the header has only one key value pair – ( X-Atlassian-Token : no-check)
+
+ 
+
