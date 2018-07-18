@@ -1,2 +1,6 @@
 https://www.openstreetmap.org/user/jbelien/diary/44356
 http://www.eastvox.com/ - Remote jobs
+https://tylermcginnis.com
+
+//Useful command
+git remote set-url origin git@github.com:vinesh178/Learning.git
