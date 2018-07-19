@@ -1,0 +1,17 @@
+#Setting up ssh  
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+#Updating postman
+
+whereis postman
+ cd /opt
+ ls
+ sudo rm -r Postman/
+ cd Downloads/
+ sudo tar -xf Postman-linux-x64-5.5.0.tar.gz -C /opt/
+
+
+#remove prompt from git
+git config credential.helper store
