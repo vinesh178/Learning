@@ -4,3 +4,6 @@ https://tylermcginnis.com
 
 //Useful command
 git remote set-url origin git@github.com:vinesh178/Learning.git
+
+//Design patterns
+https://refactoring.guru
