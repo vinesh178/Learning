@@ -19,3 +19,4 @@ git config credential.helper store
 //start docker in the current working directory
 
 docker run --rm -it -v $(pwd):/app {{image_name}} bash
+
