@@ -20,3 +20,5 @@ git config credential.helper store
 
 docker run --rm -it -v $(pwd):/app {{image_name}} bash
 
+vscode change run code command
+code-runner.executorMap
