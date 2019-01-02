@@ -23,3 +23,5 @@ docker run --rm -it -v $(pwd):/app {{image_name}} bash
 #Kill a process if you know the port number
 netstat -vanp tcp | grep <portnumber>
 
+vscode change run code command
+code-runner.executorMap
