@@ -12,3 +12,7 @@ http://java-design-patterns.com
 
 //freelancing
 https://freelancetowin.com/
+
+//Front end learning
+Odin Project
+
