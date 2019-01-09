@@ -25,3 +25,6 @@ netstat -vanp tcp | grep <portnumber>
 
 vscode change run code command
 code-runner.executorMap
+
+//Delete all images and containers
+docker system prune
