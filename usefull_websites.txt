@@ -16,3 +16,6 @@ https://freelancetowin.com/
 //Front end learning
 Odin Project
 
+//free authentication service
+https://fusionauth.io
+
