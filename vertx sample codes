@@ -1,6 +1,6 @@
 		//Authorize with Jwt tokent
     
-    Router router = Router.router(vertx);
+                Router router = Router.router(vertx);
 
 		JWTAuth provider = JWTAuth.create(vertx, new JWTAuthOptions().addPubSecKey(
 				new PubSecKeyOptions().setAlgorithm("HS256").setPublicKey("keyboard cat").setSymmetric(true)));
@@ -22,3 +22,8 @@
 		router.post("/api/login").handler(this::login);
 
 		vertx.createHttpServer().requestHandler(router).listen(2815);
+
+//Hashing passwords using Bcrypt
+	String hashedPassword = BCrypt.withDefaults().hashToString(10, password.toCharArray());
+
+	System.out.println(BCrypt.verifyer().verify(password.getBytes(), hashedPassword.getBytes()).verified);
