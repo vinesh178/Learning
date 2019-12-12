@@ -19,5 +19,9 @@ Odin Project
 //free authentication service
 https://fusionauth.io
 
+//Reove click gate
 https://sugoidesune.github.io/readium/
+
+//peer recomendations
+https://www.trustedfor.com/welcome
 
