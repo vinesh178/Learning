@@ -49,3 +49,4 @@ s = session.get('https://www.chess.com/today')
 
 soup = BeautifulSoup(s.text, 'html.parser')
 soup.find('img')['src']
+print(soup.encode("utf-8"))
