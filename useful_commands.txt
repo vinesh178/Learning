@@ -28,3 +28,6 @@ code-runner.executorMap
 
 //Delete all images and containers
 docker system prune -a
+
+//start vertx java project as daemon
+java -jar <*.fatjar> start -id <projectname>
